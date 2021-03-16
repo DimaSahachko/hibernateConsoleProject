@@ -1,5 +1,11 @@
 language: java
 services:
 - postgresql
+addons:
+ postgresql: '10.16'
+ apt:
+  packages:
+   - postgresql-10
+   - postgresql-client-10
 before_script:
-- psql -c 'create database hibernate;' -U postgres -P password
+- psql -c 'create database hibernate;' -U postgres
