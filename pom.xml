@@ -65,7 +65,7 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M5</version>
         </plugin>
-      <!--  <plugin>
+        <plugin>
     		<groupId>org.flywaydb</groupId>
    		    <artifactId>flyway-maven-plugin</artifactId>
    			<version>7.7.0</version>
@@ -77,15 +77,7 @@
                     <location>filesystem:src/main/resources/flyway</location>
                 </locations>
             </configuration>
-            <executions>
-                <execution>
-                    <phase>generate-sources</phase>
-                    <goals>
-                        <goal>migrate</goal>
-                    </goals>
-                </execution>
-            </executions>
-		</plugin> -->
+		</plugin>
   </plugins>
   </build>
 </project>
