@@ -65,7 +65,7 @@
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.0.0-M5</version>
         </plugin>
-        <plugin>
+      <!--  <plugin>
     		<groupId>org.flywaydb</groupId>
    		    <artifactId>flyway-maven-plugin</artifactId>
    			<version>7.7.0</version>
@@ -85,7 +85,7 @@
                     </goals>
                 </execution>
             </executions>
-		</plugin>
+		</plugin> -->
   </plugins>
   </build>
 </project>
